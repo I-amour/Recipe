@@ -1,0 +1,101 @@
+.index{
+font-family: 'Sacramento', cursive;
+}
+
+.teriyaki,
+.spaghetti,
+.jollof{
+  font-family: 'Poiret One', cursive;
+}
+
+h1{
+  text-align: center;
+  font-style: normal;
+  border-bottom: 2px solid black;
+  border-spacing: 5px
+}
+
+h2{
+  text-align: center;
+}
+
+.content{
+ display:flex;
+ gap:20px;
+ justify-content: center;
+}
+
+img{
+  height: 500px;
+  width: 430px;
+}
+
+.item img:hover{
+    transform: scale(1.05);
+    opacity: 80%;
+    transition: all ease;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(255, 150, 185);
+}
+
+.titles{
+  text-align: center;
+  font-size: 30px
+}
+
+.item{
+  padding-top: 70px;
+  padding-right: 20px;
+}
+
+.ingerdients{
+  border-radius: 15px;
+  display: block;
+  background-color: rgb(166, 203, 255);
+  flex-grow: 1;
+}
+
+.left{
+display: flex;
+flex-direction: column;
+gap:20px;
+padding-left: 30px;
+margin-right: auto;
+}
+
+.left img{
+  border-radius: 10px;
+}
+
+.steps{
+  font-size: 30px;
+  text-indent: 10px;
+  border-spacing: 100px;
+  border-radius: 10px;
+  border:1px solid rgb(41, 41, 41);
+}
+
+.right{
+  display:flex;
+  flex-direction: column;
+    flex-grow: 1;
+    gap:20px;
+    padding-left: 30px;
+    margin-right: auto;
+}
+
+.rightbottom{
+  border-radius: 10px;
+  border:1px solid rgb(41, 41, 41);
+  flex-grow: 1;
+}
+
+.source{
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+a{
+  font-size: 30px;
+}
